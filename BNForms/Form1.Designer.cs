@@ -53,11 +53,11 @@ namespace BNForms
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.l_qui = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.tb_bomb = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.l_qui = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -314,6 +314,25 @@ namespace BNForms
             this.panel1.TabIndex = 18;
             this.panel1.Visible = false;
             // 
+            // l_qui
+            // 
+            this.l_qui.AutoSize = true;
+            this.l_qui.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_qui.Location = new System.Drawing.Point(95, 8);
+            this.l_qui.Name = "l_qui";
+            this.l_qui.Size = new System.Drawing.Size(24, 26);
+            this.l_qui.TabIndex = 6;
+            this.l_qui.Text = "1";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(10, 48);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(99, 13);
+            this.label11.TabIndex = 5;
+            this.label11.Text = "Case à bombarder :";
+            // 
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(205, 42);
@@ -339,25 +358,6 @@ namespace BNForms
             this.label10.Size = new System.Drawing.Size(79, 13);
             this.label10.TabIndex = 0;
             this.label10.Text = "Tour du joueur ";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(10, 48);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(99, 13);
-            this.label11.TabIndex = 5;
-            this.label11.Text = "Case à bombarder :";
-            // 
-            // l_qui
-            // 
-            this.l_qui.AutoSize = true;
-            this.l_qui.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_qui.Location = new System.Drawing.Point(95, 8);
-            this.l_qui.Name = "l_qui";
-            this.l_qui.Size = new System.Drawing.Size(24, 26);
-            this.l_qui.TabIndex = 6;
-            this.l_qui.Text = "1";
             // 
             // Form1
             // 

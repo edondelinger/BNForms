@@ -34,7 +34,7 @@ namespace BNForms
         {
             p_zoneJeu.Visible = true;
             p_placement.Visible = true;
-            MessageBox.Show("Joueur 1, placez vos bâteaux en sélectionnant les cases dans la liste déroulante");
+            MessageBox.Show("Joueur 1, placez vos bâteaux en sélectionnant les cases dans les zones de texte (A2, B1 etc ...)");
             joueurCourant = 1;
             /*
             Image i = Properties.Resources.bateau;
